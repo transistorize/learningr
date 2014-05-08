@@ -3,7 +3,7 @@ library('stringr')
 
 # base data URL for Arsenal stats, pull from espnfc page
 team <- "Arsenal"
-baseurl <- "http://espnfc.com/team/fixtures/_/id/359/season" #2001/league/eng.1/arsenal
+baseurl <- "http://www.espnfc.com/team/fixtures/_/id/359/season" #2001/league/eng.1/arsenal
 seasons <- 2001:2012
 
 # build all the URLs and fetch each season's web page
